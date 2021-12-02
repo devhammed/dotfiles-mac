@@ -1,0 +1,38 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "dart",
+    "javascript",
+    "python",
+    "json",
+    "vala",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "suggest.noselect": false,
+  "solargraph.rename": true,
+  "solargraph.formatting": true,
+  "cSpell.userWords": ["vala"],
+  "python.jediEnabled": false,
+  "languageserver": {
+    "vala": {
+      "command": "vala-language-server",
+      "filetypes": ["vala", "genie"]
+    },
+    "mint": {
+      "command": "mint",
+      "args": ["ls"],
+      "filetypes": ["mint"],
+      "rootPatterns": ["mint.json"]
+    },
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    }
+  }
+}
