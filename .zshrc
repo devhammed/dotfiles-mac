@@ -130,7 +130,7 @@ if type brew &>/dev/null; then
 fi
 
 # Load other binaries
-export PATH="${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
+export PATH="${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
 
 # Load Zoxide
 eval "$(zoxide init zsh)"
