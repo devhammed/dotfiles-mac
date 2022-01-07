@@ -132,6 +132,17 @@ fi
 # Load other binaries
 export PATH="${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
 
+# Setup SSH-Agent
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+  eval "$(ssh-agent -s)"
+
+  ssh-add ~/.ssh/id_decagon_macbook_pro_mid_2015 > /dev/null 2>&1
+
+  ssh-add ~/.ssh/id_personal_macbook_pro_mid_2015 > /dev/null 2>&1
+
+  ssh-add ~/.ssh/id_vertex_macbook_pro_mid_2015 > /dev/null 2>&1
+fi
+
 # Load Zoxide
 eval "$(zoxide init zsh)"
 
