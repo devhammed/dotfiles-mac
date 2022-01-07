@@ -135,13 +135,14 @@ export PATH="${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/And
 # Setup SSH-Agent
 if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval "$(ssh-agent -s)"
-
-  ssh-add ~/.ssh/id_decagon_macbook_pro_mid_2015 > /dev/null 2>&1
-
-  ssh-add ~/.ssh/id_personal_macbook_pro_mid_2015 > /dev/null 2>&1
-
-  ssh-add ~/.ssh/id_vertex_macbook_pro_mid_2015 > /dev/null 2>&1
 fi
+
+# Add SSH keys to Agent
+ssh-add ~/.ssh/id_decagon_macbook_pro_mid_2015 > /dev/null 2>&1
+
+ssh-add ~/.ssh/id_personal_macbook_pro_mid_2015 > /dev/null 2>&1
+
+ssh-add ~/.ssh/id_vertex_macbook_pro_mid_2015 > /dev/null 2>&1
 
 # Load Zoxide
 eval "$(zoxide init zsh)"
