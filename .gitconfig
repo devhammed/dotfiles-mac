@@ -12,6 +12,8 @@
 	forceSignAnnotated = true
 [pull]
 	rebase = false
+[core]
+	sshCommand = "ssh -i ~/.ssh/id_personal_macbook_pro_mid_2015"
 [includeIf "gitdir:~/Projects/Decagon/"]
 	path = ~/.gitconfig-decagon
 [includeIf "gitdir:~/Projects/Vertex/"]
