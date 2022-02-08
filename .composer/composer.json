@@ -1,9 +1,15 @@
 {
     "require": {
-        "laravel/valet": "^2.16"
+        "laravel/valet": "^2.16",
+        "phpcompatibility/php-compatibility": "^9.3"
     },
     "require-dev": {
         "automattic/vipwpcs": "^2.3",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
