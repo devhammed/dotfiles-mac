@@ -134,6 +134,9 @@ fi
 # Load other binaries
 export PATH="${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
 
+# Load Dart global commands
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 # Setup SSH-Agent
 if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval "$(ssh-agent -s)"
