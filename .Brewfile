@@ -7,10 +7,13 @@ tap "homebrew/services"
 brew "php", restart_service: true
 brew "composer"
 brew "dnsmasq"
+brew "gjs"
 brew "gnupg"
+brew "gtk4"
 brew "httpd"
 brew "ios-webkit-debug-proxy"
 brew "mailhog", restart_service: true
+brew "meson"
 brew "mysql", restart_service: true
 brew "nginx", restart_service: true
 brew "node"
@@ -35,6 +38,5 @@ cask "spotify"
 cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
-cask "webcatalog"
 cask "whatsapp"
 cask "zoom"
