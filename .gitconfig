@@ -2,20 +2,25 @@
 	name = Hammed Oyedele
 	email = itz.harmid@gmail.com
 	username = devhammed
-	signingkey = B8E2CB30A8D8071C
+	signingkey = 990729A301F44E5C
 [init]
 	defaultBranch = main
-	templatedir = ~/.git-template
+	templateDir = ~/.git-template
 [commit]
-	gpgsign = true
+	gpgSign = true
 [tag]
-	forceSignAnnotated = true
+	gpgSign = true
 [pull]
 	rebase = false
 [core]
-	sshCommand = "ssh -i ~/.ssh/id_personal_macbook_pro_mid_2015"
-	excludesfile = /Users/hammedo/.gitignore
+	sshCommand = "ssh -i ~/.ssh/id_personal"
+	excludesFile = ~/.gitignore
+  autocrlf = input
+[merge]
+  renameLimit = 100000
 [includeIf "gitdir:~/Projects/Decagon/"]
 	path = ~/.gitconfig-decagon
 [includeIf "gitdir:~/Projects/Vertex/"]
-	path = ~/.gitconfig-vertex
+  path = ~/.gitconfig-vertex
+[includeIf "gitdir:~/Projects/Merck/"]
+  path = ~/.gitconfig-merck
