@@ -24,3 +24,5 @@
   path = ~/.gitconfig-vertex
 [includeIf "gitdir:~/Projects/Merck/"]
   path = ~/.gitconfig-merck
+[includeIf "gitdir:~/.composer/cex-wpvip-repo-registry/"]
+  path = ~/.gitconfig-merck
