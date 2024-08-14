@@ -132,7 +132,7 @@ if type brew &>/dev/null; then
 fi
 
 # Load other binaries
-export PATH="${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
+export PATH="/usr/local/mysql/bin:${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
 
 # Load Dart global commands
 export PATH="$PATH":"$HOME/.pub-cache/bin"
@@ -143,22 +143,19 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 fi
 
 # Add SSH keys to Agent
-ssh-add ~/.ssh/id_decagon_macbook_pro_mid_2015 > /dev/null 2>&1
+ssh-add ~/.ssh/id_personal > /dev/null 2>&1
 
-ssh-add ~/.ssh/id_personal_macbook_pro_mid_2015 > /dev/null 2>&1
+ssh-add ~/.ssh/id_vertex > /dev/null 2>&1
 
-ssh-add ~/.ssh/id_vertex_macbook_pro_mid_2015 > /dev/null 2>&1
+ssh-add ~/.ssh/id_merck > /dev/null 2>&1
+
+ssh-add ~/.ssh/id_decagon > /dev/null 2>&1
 
 # Load Zoxide
 eval "$(zoxide init zsh)"
 
 # Load Starship Prompt
 eval "$(starship init zsh)"
-
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-export PATH="/usr/local/sbin:$PATH"
-
 
 # Herd injected NVM configuration
 export NVM_DIR="/Users/hammedo/Library/Application Support/Herd/config/nvm"
@@ -169,6 +166,9 @@ export NVM_DIR="/Users/hammedo/Library/Application Support/Herd/config/nvm"
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/83/"
 
-
 # Herd injected PHP binary.
 export PATH="/Users/hammedo/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected PHP 8.0 configuration.
+export HERD_PHP_80_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/80/"
