@@ -2,7 +2,8 @@
     "require": {
         "phpcompatibility/php-compatibility": "^9.3",
         "merck-gen/cex-wpvip-composer-plugin-repo-registry": "dev-main",
-        "wikimedia/composer-merge-plugin": "^2"
+        "wikimedia/composer-merge-plugin": "^2",
+        "franzl/studio": "^0.16.0"
     },
     "require-dev": {
         "automattic/vipwpcs": "^2.3",
@@ -10,7 +11,8 @@
     },
     "config": {
         "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "franzl/studio": true
         }
     }
 }
