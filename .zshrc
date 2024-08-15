@@ -1,8 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/hammedo/.oh-my-zsh"
 
@@ -132,7 +127,7 @@ if type brew &>/dev/null; then
 fi
 
 # Load other binaries
-export PATH="/usr/local/mysql/bin:${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
+export PATH="${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
 
 # Load Dart global commands
 export PATH="$PATH":"$HOME/.pub-cache/bin"
@@ -172,3 +167,8 @@ export PATH="/Users/hammedo/Library/Application Support/Herd/bin/":$PATH
 
 # Herd injected PHP 8.0 configuration.
 export HERD_PHP_80_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/80/"
+
+
+# Herd injected PHP 8.2 configuration.
+export HERD_PHP_82_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/82/"
+export PATH="/usr/local/sbin:$PATH"
