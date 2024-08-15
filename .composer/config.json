@@ -1,0 +1,14 @@
+{
+    "config": {
+        "allow-plugins": {
+            "merck-gen/cex-wpvip-composer-plugin-repo-registry": true,
+            "wikimedia/composer-merge-plugin": true,
+            "merck-gen/cex-wpvip-composer-package-classmap-autoload": true
+        }},
+    "repositories": {
+        "repo-registry-plugin": {
+            "type": "vcs",
+            "url": "https://github.com/merck-gen/cex-wpvip-composer-plugin-repo-registry.git"
+        }
+    }
+}
