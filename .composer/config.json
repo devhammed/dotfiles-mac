@@ -4,7 +4,8 @@
             "merck-gen/cex-wpvip-composer-plugin-repo-registry": true,
             "wikimedia/composer-merge-plugin": true,
             "merck-gen/cex-wpvip-composer-package-classmap-autoload": true
-        }},
+        },
+        "use-parent-dir": true},
     "repositories": {
         "repo-registry-plugin": {
             "type": "vcs",
