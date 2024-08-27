@@ -7,6 +7,7 @@ ZSH_THEME=""
 #--- Which plugins would you like to load? ---#
 plugins=(
   git
+  gh
   npm
   pip
   yarn
@@ -14,7 +15,6 @@ plugins=(
   docker
   wp-cli
   golang
-  heroku
   flutter
   artisan
   direnv
