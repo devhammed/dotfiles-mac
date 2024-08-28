@@ -28,6 +28,9 @@ source $ZSH/oh-my-zsh.sh
 
 #--- User configuration ---#
 
+# Aliases
+alias cat="bat"
+
 # load Homebrew ZSH autocompletions
 if type brew &>/dev/null; then
   fpath+="$(brew --prefix)/share/zsh/site-functions"

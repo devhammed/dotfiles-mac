@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+brew "bat"
 brew "cocoapods"
 brew "direnv"
 brew "gh"
