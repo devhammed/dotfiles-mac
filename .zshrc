@@ -66,6 +66,9 @@ ssh-add ~/.ssh/id_merck > /dev/null 2>&1
 
 ssh-add ~/.ssh/id_decagon > /dev/null 2>&1
 
+# Disable direnv messages
+export DIRENV_LOG_FORMAT=""
+
 # Load Zoxide
 eval "$(zoxide init zsh)"
 
