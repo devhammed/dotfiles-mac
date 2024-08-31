@@ -219,6 +219,7 @@ set smarttab
 
 " Configure PHP
 autocmd BufEnter *.php setlocal shiftwidth=4 tabstop=4 softtabstop=4
+au FileType php let b:coc_root_patterns = ['.git', '.env', 'composer.json', 'artisan']
 
 " Set nonumber and disable mouse for .crt and .key files
 autocmd BufEnter *.key,*.crt setlocal nonumber mouse=
