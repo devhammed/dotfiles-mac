@@ -217,7 +217,7 @@ set expandtab
 " Enable intelligent tabbing and spacing for indentation and alignment
 set smarttab
 
-" Set different indentation for PHP
+" Configure PHP
 autocmd BufEnter *.php setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
 " Set nonumber and disable mouse for .crt and .key files
