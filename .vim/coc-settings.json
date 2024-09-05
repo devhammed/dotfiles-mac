@@ -34,5 +34,6 @@
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]
     }
-  }
+  },
+  "snippets.ultisnips.pythonPrompt": false
 }
