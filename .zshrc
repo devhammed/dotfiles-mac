@@ -45,6 +45,11 @@ if type brew &>/dev/null; then
   fi
 fi
 
+# Setup CLI tools
+export EDITOR="vim"
+export VISUAL="phpstorm"
+export BROWSER="open -a 'Google Chrome'"
+
 # Setup C libraries
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
@@ -92,4 +97,6 @@ export HERD_PHP_80_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd
 
 # Herd injected PHP 8.2 configuration.
 export HERD_PHP_82_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/82/"
+
+# Extra Paths
 export PATH="/usr/local/sbin:$PATH"
