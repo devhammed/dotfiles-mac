@@ -48,7 +48,7 @@ fi
 # Setup CLI tools
 export EDITOR="vim"
 export VISUAL="phpstorm"
-export BROWSER="open -a 'Google Chrome'"
+export BROWSER="chrome"
 
 # Setup C libraries
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
