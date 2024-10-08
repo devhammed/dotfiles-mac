@@ -4,7 +4,8 @@
         "merck-gen/cex-wpvip-composer-plugin-repo-registry": "dev-main",
         "wikimedia/composer-merge-plugin": "^2",
         "franzl/studio": "^0.16.0",
-        "wp-cli/wp-cli-bundle": "^2.11"
+        "wp-cli/wp-cli-bundle": "^2.11",
+        "cpx/cpx": "^1.0"
     },
     "require-dev": {
         "automattic/vipwpcs": "^2.3",
