@@ -116,3 +116,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/84/"
