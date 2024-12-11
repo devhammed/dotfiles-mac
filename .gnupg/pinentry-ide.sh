@@ -1,0 +1,2 @@
+#!/bin/sh
+"/Applications/PhpStorm.app/Contents/jbr/Contents/Home/bin/java" -cp "/Applications/PhpStorm.app/Contents/plugins/vcs-git/lib/git4idea-rt.jar:/Applications/PhpStorm.app/Contents/lib/externalProcess-rt.jar" git4idea.gpg.PinentryApp
