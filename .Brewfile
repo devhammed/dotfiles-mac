@@ -11,6 +11,7 @@ brew "gnupg"
 brew "gtk4"
 brew "ios-webkit-debug-proxy"
 brew "meson"
+brew "mmv"
 brew "ollama", restart_service: true
 brew "pipx"
 brew "python-setuptools"
