@@ -12,7 +12,7 @@ brew "gtk4"
 brew "ios-webkit-debug-proxy"
 brew "meson"
 brew "mmv"
-brew "ollama", restart_service: true
+brew "ollama", restart_service: :changed
 brew "pipx"
 brew "python-setuptools"
 brew "starship"
