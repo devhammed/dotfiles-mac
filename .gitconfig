@@ -26,3 +26,5 @@
   path = ~/.gitconfig-merck
 [includeIf "gitdir:~/.composer/cex-wpvip-repo-registry/"]
   path = ~/.gitconfig-merck
+[includeIf "gitdir:~/Projects/ByteLabs"]
+  path = ~/.gitconfig-bytelabs
