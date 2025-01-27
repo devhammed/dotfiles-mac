@@ -1,2 +1,10 @@
+[user]
+  name = Olumide Omotoso
+  email = oluomotoso@gmail.com
+  username = oluomotoso
+[commit]
+  gpgSign = false
+[tag]
+  gpgSign = false
 [core]
-	sshCommand = "ssh -i ~/.ssh/id_bytelabs"
+  sshCommand = "ssh -i ~/.ssh/id_bytelabs"
