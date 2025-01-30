@@ -54,6 +54,9 @@ export BROWSER="chrome"
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
 
+# Setup Node.js
+export NODE_OPTIONS=--openssl-legacy-provider
+
 # Load other binaries
 export PATH="/usr/local/opt/ruby/bin:${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${HOME}/.pub-cache/bin:${PATH}"
 
@@ -120,3 +123,11 @@ unset __conda_setup
 
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/84/"
+
+
+# Herd injected PHP 7.4 configuration.
+export HERD_PHP_74_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/74/"
+
+
+# Herd injected PHP 8.1 configuration.
+export HERD_PHP_81_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/81/"
