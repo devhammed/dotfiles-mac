@@ -30,6 +30,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias cat="bat"
+alias \?='gh copilot explain'
+alias \?\?='gh copilot explain'
 
 # load Homebrew ZSH autocompletions
 if type brew &>/dev/null; then
