@@ -1134,6 +1134,7 @@
                 "source": "https://github.com/merck-gen/cex-wpvip-composer-plugin-repo-registry/tree/main",
                 "issues": "https://github.com/merck-gen/cex-wpvip-composer-plugin-repo-registry/issues"
             },
+            "abandoned": true,
             "time": "2024-08-02T10:40:32+00:00"
         },
         {
