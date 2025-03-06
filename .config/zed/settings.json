@@ -6,23 +6,14 @@
     },
     "version": "2"
   },
-  "languages": {
-    "JavaScript": {
-      "prettier": {
-        "singleQuote": true
-      }
-    },
-    "TypeScript": {
-      "prettier": {
-        "singleQuote": true
-      }
-    },
-    "PHP": {
-      "prettier": {
-        "singleQuote": true
-      }
-    }
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "quoteProps": "as-needed",
+    "semi": true
   },
+  "format_on_save": "on",
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "theme": "Dracula"
