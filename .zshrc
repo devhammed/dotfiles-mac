@@ -55,6 +55,7 @@ export BROWSER="chrome"
 # Setup C libraries
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export LANG=en_NG.UTF-8
 
 # Setup Node.js
 export NODE_OPTIONS="--openssl-legacy-provider"
