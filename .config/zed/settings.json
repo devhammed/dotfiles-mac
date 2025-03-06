@@ -6,6 +6,23 @@
     },
     "version": "2"
   },
+  "languages": {
+    "JavaScript": {
+      "prettier": {
+        "singleQuote": true
+      }
+    },
+    "TypeScript": {
+      "prettier": {
+        "singleQuote": true
+      }
+    },
+    "PHP": {
+      "prettier": {
+        "singleQuote": true
+      }
+    }
+  },
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "theme": "Dracula"
