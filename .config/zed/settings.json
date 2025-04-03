@@ -1,4 +1,7 @@
 {
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "show_edit_predictions": true,
   "assistant": {
     "default_model": {
