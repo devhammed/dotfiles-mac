@@ -1,5 +1,5 @@
 {
-  "show_edit_predictions": false,
+  "show_edit_predictions": true,
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
