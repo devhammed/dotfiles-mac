@@ -57,9 +57,6 @@ export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export LANG=en_NG.UTF-8
 
-# Setup Node.js
-export NODE_OPTIONS="--openssl-legacy-provider"
-
 # Load other binaries
 export PATH="/usr/local/opt/ruby/bin:${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${HOME}/.pub-cache/bin:${PATH}"
 
