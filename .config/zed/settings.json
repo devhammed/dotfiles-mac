@@ -1,8 +1,13 @@
 {
+  "format_on_save": "on",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": "Dracula",
+  "auto_update": false,
+  "show_edit_predictions": true,
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "show_edit_predictions": true,
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
@@ -16,9 +21,5 @@
     "trailingComma": "all",
     "quoteProps": "as-needed",
     "semi": true
-  },
-  "format_on_save": "on",
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "theme": "Dracula"
+  }
 }
