@@ -20,6 +20,11 @@
     "jsxSingleQuote": false,
     "trailingComma": "all",
     "quoteProps": "as-needed",
-    "semi": true
+    "semi": true,
+    "printWidth": 120,
+    "tabWidth": 2,
+    "useTabs": false,
+    "bracketSameLine": false,
+    "bracketSpacing": true
   }
 }
