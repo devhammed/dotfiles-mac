@@ -85,5 +85,14 @@
   "cursor.terminal.usePreviewBox": true,
   "editor.fontFamily": "'JetBrains Mono', monospace",
   "editor.fontSize": 13,
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "workbench.preferredDarkColorTheme": "Dracula Theme",
+  "workbench.preferredHighContrastColorTheme": "Dracula Theme Soft",
+  "workbench.preferredHighContrastLightColorTheme": "Dracula Theme",
+  "workbench.preferredLightColorTheme": "Dracula Theme",
+  "workbench.tips.enabled": false,
+  "screencastMode.keyboardOptions": {
+    "showCommandGroups": true
+  }
 }
