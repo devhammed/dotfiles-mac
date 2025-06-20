@@ -94,5 +94,8 @@
   "workbench.tips.enabled": false,
   "screencastMode.keyboardOptions": {
     "showCommandGroups": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.sortAndRemoveImports": "explicit"
   }
 }
