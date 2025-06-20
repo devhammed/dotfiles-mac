@@ -1,9 +1,9 @@
 {
-  "window.commandCenter": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "git.confirmSync": false,
   "explorer.confirmDelete": false,
+  "workbench.list.defaultFindMatchType": "fuzzy",
   "application.shellEnvironmentResolutionTimeout": 120,
   "git.enableSmartCommit": true,
   "workbench.iconTheme": "a-file-icon-vscode",
@@ -78,5 +78,12 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "database-client.capitalizeKeywordsWhenFormatting": true,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": true,
+  "cursor.terminal.usePreviewBox": true,
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true
 }
