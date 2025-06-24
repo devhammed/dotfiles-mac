@@ -29,6 +29,8 @@
   },
   "workbench.colorTheme": "Dracula Theme",
   "files.trimTrailingWhitespace": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
