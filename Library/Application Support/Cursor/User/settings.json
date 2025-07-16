@@ -101,5 +101,6 @@
     "source.sortAndRemoveImports": "explicit"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "git.openRepositoryInParentFolders": "never"
 }
