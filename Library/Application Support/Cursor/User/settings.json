@@ -102,5 +102,8 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": true,
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "php.problems.scope": "all",
+  "docker.extension.enableComposeLanguageServer": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false
 }
