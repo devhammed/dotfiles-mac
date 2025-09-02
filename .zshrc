@@ -133,3 +133,9 @@ export HERD_PHP_81_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd
 
 # Herd injected PHP 8.5 configuration.
 export HERD_PHP_85_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/85/"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/share/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/share/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/share/google-cloud-sdk/completion.zsh.inc' ]; then . '/usr/local/share/google-cloud-sdk/completion.zsh.inc'; fi

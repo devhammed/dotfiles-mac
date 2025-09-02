@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "528e845da57a1b0d14fe6f9369bfe124",
+    "content-hash": "9ba8990e8dc5747cebe2746d90e4d50e",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1182,44 +1182,6 @@
                 "source": "https://github.com/mck89/peast/tree/v1.17.2"
             },
             "time": "2025-07-01T09:30:45+00:00"
-        },
-        {
-            "name": "merck-gen/cex-wpvip-composer-plugin-repo-registry",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:merck-gen/cex-wpvip-composer-plugin-repo-registry.git",
-                "reference": "d71b44eb3870129ac6b72b0f08030490cd8f4273"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/merck-gen/cex-wpvip-composer-plugin-repo-registry/zipball/d71b44eb3870129ac6b72b0f08030490cd8f4273",
-                "reference": "d71b44eb3870129ac6b72b0f08030490cd8f4273",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^2.0"
-            },
-            "require-dev": {
-                "composer/composer": "^2.0"
-            },
-            "default-branch": true,
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Merck\\Cex\\WPVIP\\Composer\\Plugins\\RegistryPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Merck\\Cex\\WPVIP\\Composer\\Plugins\\": "src"
-                }
-            },
-            "description": "Composer plugin for MSD Registry",
-            "support": {
-                "source": "https://github.com/merck-gen/cex-wpvip-composer-plugin-repo-registry/tree/main",
-                "issues": "https://github.com/merck-gen/cex-wpvip-composer-plugin-repo-registry/issues"
-            },
-            "abandoned": true,
-            "time": "2024-08-02T10:40:32+00:00"
         },
         {
             "name": "nb/oxymel",
@@ -5336,9 +5298,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "merck-gen/cex-wpvip-composer-plugin-repo-registry": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
