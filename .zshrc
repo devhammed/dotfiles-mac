@@ -7,6 +7,7 @@ ZSH_THEME=""
 #--- Which plugins would you like to load? ---#
 plugins=(
   git
+  golang
   gh
   npm
   pip
@@ -58,6 +59,7 @@ export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export LANG=en_NG.UTF-8
 export HOMEBREW_NO_INSTALL_FROM_API="1"
 export SENTRY_SUPPRESS_TURBOPACK_WARNING="1"
+export GOBIN="${HOME}/go/bin"
 
 # Load other binaries
 export PATH="/usr/local/opt/ruby/bin:${HOME}/.local/bin:${HOME}/go/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${HOME}/.pub-cache/bin:${PATH}"
