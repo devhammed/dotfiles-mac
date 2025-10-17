@@ -60,7 +60,7 @@ export HOMEBREW_NO_INSTALL_FROM_API="1"
 export SENTRY_SUPPRESS_TURBOPACK_WARNING="1"
 
 # Load other binaries
-export PATH="/usr/local/opt/ruby/bin:${HOME}/.local/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${HOME}/.pub-cache/bin:${PATH}"
+export PATH="/usr/local/opt/ruby/bin:${HOME}/.local/bin:${HOME}/go/bin:${HOME}/.composer/vendor/bin:${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${HOME}/.pub-cache/bin:${PATH}"
 
 # Setup SSH-Agent
 if [ -z "$SSH_AUTH_SOCK" ] ; then
