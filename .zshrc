@@ -105,6 +105,9 @@ export HERD_PHP_80_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd
 # Herd injected PHP 8.2 configuration.
 export HERD_PHP_82_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/82/"
 
+# Herd CA for Node.js
+export NODE_EXTRA_CA_CERTS="/Users/hammedo/Library/Application Support/Herd/config/valet/CA/LaravelValetCASelfSigned.pem"
+
 # Extra Paths
 export PATH="/usr/local/sbin:$PATH"
 
@@ -131,7 +134,6 @@ export HERD_PHP_74_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd
 
 # Herd injected PHP 8.1 configuration.
 export HERD_PHP_81_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/81/"
-
 
 # Herd injected PHP 8.5 configuration.
 export HERD_PHP_85_INI_SCAN_DIR="/Users/hammedo/Library/Application Support/Herd/config/php/85/"
